@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.app.common.commonwidget.roundview.RoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                         xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                         android:layout_width="wrap_content"
+                                                         android:layout_height="wrap_content"
+                                                         android:layout_gravity="center"
+                                                         android:gravity="center"
+                                                         android:orientation="vertical"
+                                                         app:rv_backgroundColor="@color/FFFFFF"
+                                                         app:rv_cornerRadius="@dimen/x24"
+                                                         android:paddingTop="@dimen/x80"
+                                                         android:paddingBottom="@dimen/x80"
+                                                         android:paddingStart="@dimen/x160"
+                                                         android:paddingEnd="@dimen/x160"
+    >
+
+    <ProgressBar
+        android:layout_width="@dimen/x100"
+        android:layout_height="@dimen/x100"
+        android:indeterminateTint="@color/FD9B21"
+        android:indeterminateTintMode="src_atop"
+        />
+
+    <TextView
+        android:id="@+id/id_tv_loading_dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x50"
+        android:text="@string/please_later"
+        android:textColor="@color/FD9B21"
+        android:textSize="12sp"/>
+
+</com.app.common.commonwidget.roundview.RoundLinearLayout>

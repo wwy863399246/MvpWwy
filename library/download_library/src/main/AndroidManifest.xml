@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.elson.lib.download_library"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <service
+            android:name=".DownLoadService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="com.elson.lib.download_library.downloadservice"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

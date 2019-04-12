@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="enum" name="sr_style">
+        <enum name="style_default" value="0"/>
+        <enum name="style_scale" value="1"/>
+        <enum name="style_pin" value="2"/>
+        <enum name="style_followScale" value="3"/>
+        <enum name="style_followPin" value="4"/>
+        <enum name="style_followCenter" value="5"/>
+    </attr>
+    <color name="FD9B21">#FD9B21</color>
+    <declare-styleable name="AbsClassicRefreshView">
+        <attr name="sr_style"/>
+    </declare-styleable>
+    <declare-styleable name="IRefreshView">
+        <attr name="sr_style"/>
+    </declare-styleable>
+    <declare-styleable name="SmoothRefreshLayout">
+        <attr format="reference" name="sr_content"/>
+        <attr format="float" name="sr_resistance"/>
+        <attr format="float" name="sr_resistanceOfFooter"/>
+        <attr format="float" name="sr_resistanceOfHeader"/>
+        <attr format="float" name="sr_ratioToRefresh"/>
+        <attr format="float" name="sr_ratioOfHeaderToRefresh"/>
+        <attr format="float" name="sr_ratioOfFooterToRefresh"/>
+        <attr format="float" name="sr_ratioToKeep"/>
+        <attr format="float" name="sr_ratioToKeepHeader"/>
+        <attr format="float" name="sr_ratioToKeepFooter"/>
+        <attr format="float" name="sr_maxMoveRatio"/>
+        <attr format="float" name="sr_maxMoveRatioOfHeader"/>
+        <attr format="float" name="sr_maxMoveRatioOfFooter"/>
+        <attr format="integer" name="sr_closeDuration"/>
+        <attr format="integer" name="sr_closeHeaderDuration"/>
+        <attr format="integer" name="sr_closeFooterDuration"/>
+        <attr format="integer" name="sr_backToKeepDuration"/>
+        <attr format="integer" name="sr_backToKeepHeaderDuration"/>
+        <attr format="integer" name="sr_backToKeepFooterDuration"/>
+        <attr format="boolean" name="sr_enablePullToRefresh"/>
+        <attr format="boolean" name="sr_enableKeep"/>
+        <attr format="boolean" name="sr_enableOverScroll"/>
+        <attr format="boolean" name="sr_enablePinContent"/>
+        <attr name="layout_gravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+        <attr format="boolean" name="sr_enableRefresh"/>
+        <attr format="boolean" name="sr_enableLoadMore"/>
+        <attr format="reference" name="sr_emptyLayout"/>
+        <attr format="reference" name="sr_errorLayout"/>
+        <attr format="reference" name="sr_customLayout"/>
+        <attr format="reference" name="sr_stickyHeader"/>
+        <attr format="reference" name="sr_stickyFooter"/>
+        <attr format="enum" name="sr_mode">
+            <enum name="mode_default" value="0"/>
+            <enum name="mode_scale" value="1"/>
+        </attr>
+        <attr format="color" name="sr_headerBackgroundColor"/>
+        <attr format="color" name="sr_footerBackgroundColor"/>
+    </declare-styleable>
+    <item name="sr_classic_arrow" type="id"/>
+    <item name="sr_classic_last_update" type="id"/>
+    <item name="sr_classic_progress" type="id"/>
+    <item name="sr_classic_text_container" type="id"/>
+    <item name="sr_classic_title" type="id"/>
+    <string name="sr_hours_ago"> hours ago</string>
+    <string name="sr_last_update">last update: </string>
+    <string name="sr_load_complete">Loaded</string>
+    <string name="sr_load_failed">Load failed</string>
+    <string name="sr_loading">Loading…</string>
+    <string name="sr_minutes_ago"> minutes ago</string>
+    <string name="sr_no_more_data">No more data</string>
+    <string name="sr_pull_down">Pull Down</string>
+    <string name="sr_pull_down_to_refresh">Pull Down to Refresh</string>
+    <string name="sr_pull_up">Pull Up</string>
+    <string name="sr_pull_up_to_load">Pull Up to Load</string>
+    <string name="sr_refresh_complete">Updated</string>
+    <string name="sr_refresh_failed">Update failed</string>
+    <string name="sr_refreshing">Updating…</string>
+    <string name="sr_release_to_load">Release To Load</string>
+    <string name="sr_release_to_refresh">Release To Refresh</string>
+    <string name="sr_seconds_ago"> seconds ago</string>
+</resources>

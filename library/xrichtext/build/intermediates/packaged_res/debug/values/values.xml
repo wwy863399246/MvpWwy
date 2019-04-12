@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RichTextEditor">
+        <attr format="integer" name="rt_editor_image_height"/>
+        <attr format="integer" name="rt_editor_image_bottom"/>
+        <attr format="string" name="rt_editor_text_init_hint"/>
+        <attr format="integer" name="rt_editor_text_size"/>
+        <attr format="color" name="rt_editor_text_color"/>
+        <attr format="color" name="rt_editor_text_hint_color"/>
+    </declare-styleable>
+    <declare-styleable name="RichTextView">
+        <attr format="integer" name="rt_view_image_height"/>
+        <attr format="integer" name="rt_view_image_bottom"/>
+        <attr format="string" name="rt_view_text_init_hint"/>
+        <attr format="integer" name="rt_view_text_size"/>
+        <attr format="color" name="rt_view_text_color"/>
+    </declare-styleable>
+    <string name="app_name">xrichtext</string>
+</resources>

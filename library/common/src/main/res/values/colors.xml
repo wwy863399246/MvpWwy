@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="FF7ECE28">#7ece28</color>
+    <color name="FD9B21">#FD9B21</color>
+    <color name="FF00000000">#00000000</color>
+    <color name="FFFFFF">#FFFFFF</color>
+    <color name="F88757575">#3F000000</color>
+
+    <dimen name="default_radius">80dp</dimen>
+
+    <color name="default_circular_color">#66ffffff</color>
+    <color name="default_circular_progress_color">#ffffff</color>
+    <dimen name="default_circular_width">3.5dp</dimen>
+    <dimen name="edge">10dp</dimen>
+    <dimen name="default_text_size">50sp</dimen>
+</resources>

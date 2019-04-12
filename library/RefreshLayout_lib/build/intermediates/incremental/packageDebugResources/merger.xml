@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res"/><source path="E:\MvpWwy\library\RefreshLayout_lib\build\generated\res\rs\debug"/><source path="E:\MvpWwy\library\RefreshLayout_lib\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res"><file name="progressbar" path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\drawable\progressbar.xml" qualifiers="" type="drawable"/><file name="a1" path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\drawable-xhdpi\a1.png" qualifiers="xhdpi-v4" type="drawable"/><file name="a2" path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\drawable-xhdpi\a2.png" qualifiers="xhdpi-v4" type="drawable"/><file name="a3" path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\drawable-xhdpi\a3.png" qualifiers="xhdpi-v4" type="drawable"/><file name="a4" path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\drawable-xhdpi\a4.png" qualifiers="xhdpi-v4" type="drawable"/><file name="sr_classic_arrow_icon" path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\drawable-xhdpi\sr_classic_arrow_icon.png" qualifiers="xhdpi-v4" type="drawable"/><file path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\values\attrs.xml" qualifiers=""><attr format="enum" name="sr_style">
+        <enum name="style_default" value="0"/>
+        <enum name="style_scale" value="1"/>
+        <enum name="style_pin" value="2"/>
+        <enum name="style_followScale" value="3"/>
+        <enum name="style_followPin" value="4"/>
+        <enum name="style_followCenter" value="5"/>
+    </attr><declare-styleable name="SmoothRefreshLayout">
+        <attr format="reference" name="sr_content"/>
+        <attr format="float" name="sr_resistance"/>
+        <attr format="float" name="sr_resistanceOfFooter"/>
+        <attr format="float" name="sr_resistanceOfHeader"/>
+        <attr format="float" name="sr_ratioToRefresh"/>
+        <attr format="float" name="sr_ratioOfHeaderToRefresh"/>
+        <attr format="float" name="sr_ratioOfFooterToRefresh"/>
+        <attr format="float" name="sr_ratioToKeep"/>
+        <attr format="float" name="sr_ratioToKeepHeader"/>
+        <attr format="float" name="sr_ratioToKeepFooter"/>
+        <attr format="float" name="sr_maxMoveRatio"/>
+        <attr format="float" name="sr_maxMoveRatioOfHeader"/>
+        <attr format="float" name="sr_maxMoveRatioOfFooter"/>
+        <attr format="integer" name="sr_closeDuration"/>
+        <attr format="integer" name="sr_closeHeaderDuration"/>
+        <attr format="integer" name="sr_closeFooterDuration"/>
+        <attr format="integer" name="sr_backToKeepDuration"/>
+        <attr format="integer" name="sr_backToKeepHeaderDuration"/>
+        <attr format="integer" name="sr_backToKeepFooterDuration"/>
+        <attr format="boolean" name="sr_enablePullToRefresh"/>
+        <attr format="boolean" name="sr_enableKeep"/>
+        <attr format="boolean" name="sr_enableOverScroll"/>
+        <attr format="boolean" name="sr_enablePinContent"/>
+        <attr name="layout_gravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+        <attr format="boolean" name="sr_enableRefresh"/>
+        <attr format="boolean" name="sr_enableLoadMore"/>
+        <attr format="reference" name="sr_emptyLayout"/>
+        <attr format="reference" name="sr_errorLayout"/>
+        <attr format="reference" name="sr_customLayout"/>
+        <attr format="reference" name="sr_stickyHeader"/>
+        <attr format="reference" name="sr_stickyFooter"/>
+        <attr format="enum" name="sr_mode">
+            <enum name="mode_default" value="0"/>
+            <enum name="mode_scale" value="1"/>
+        </attr>
+        <attr format="color" name="sr_headerBackgroundColor"/>
+        <attr format="color" name="sr_footerBackgroundColor"/>
+    </declare-styleable><declare-styleable name="IRefreshView">
+        <attr name="sr_style"/>
+    </declare-styleable><declare-styleable name="AbsClassicRefreshView">
+        <attr name="sr_style"/>
+    </declare-styleable></file><file path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\values\color.xml" qualifiers=""><color name="FD9B21">#FD9B21</color></file><file path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\values\ids.xml" qualifiers=""><item name="sr_classic_text_container" type="id"/><item name="sr_classic_title" type="id"/><item name="sr_classic_last_update" type="id"/><item name="sr_classic_arrow" type="id"/><item name="sr_classic_progress" type="id"/></file><file path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\values\strings.xml" qualifiers=""><string name="sr_pull_up">Pull Up</string><string name="sr_pull_up_to_load">Pull Up to Load</string><string name="sr_release_to_load">Release To Load</string><string name="sr_pull_down">Pull Down</string><string name="sr_pull_down_to_refresh">Pull Down to Refresh</string><string name="sr_release_to_refresh">Release To Refresh</string><string name="sr_refreshing">Updating…</string><string name="sr_loading">Loading…</string><string name="sr_refresh_complete">Updated</string><string name="sr_refresh_failed">Update failed</string><string name="sr_load_complete">Loaded</string><string name="sr_load_failed">Load failed</string><string name="sr_last_update">last update: </string><string name="sr_seconds_ago"> seconds ago</string><string name="sr_minutes_ago"> minutes ago</string><string name="sr_hours_ago"> hours ago</string><string name="sr_no_more_data">No more data</string></file><file path="E:\MvpWwy\library\RefreshLayout_lib\src\main\res\values-zh\strings.xml" qualifiers="zh"><string name="sr_pull_up">下拉刷新</string><string name="sr_pull_up_to_load">上拉加载</string><string name="sr_release_to_load">释放加载</string><string name="sr_pull_down">下拉刷新</string><string name="sr_pull_down_to_refresh">下拉刷新</string><string name="sr_release_to_refresh">释放刷新</string><string name="sr_refreshing">正在更新中…</string><string name="sr_refresh_complete">更新完成</string><string name="sr_loading">正在加载中…</string><string name="sr_load_complete">加载完成</string><string name="sr_last_update">上次更新: </string><string name="sr_seconds_ago"> 秒之前</string><string name="sr_minutes_ago"> 分钟之前</string><string name="sr_hours_ago"> 小时之前</string><string name="sr_refresh_failed">更新失败</string><string name="sr_load_failed">加载失败</string><string name="sr_no_more_data">没有更多数据了</string></file></source><source path="E:\MvpWwy\library\RefreshLayout_lib\build\generated\res\rs\debug"/><source path="E:\MvpWwy\library\RefreshLayout_lib\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\MvpWwy\library\RefreshLayout_lib\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\MvpWwy\library\RefreshLayout_lib\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="IRefreshView">
+        <attr name="sr_style"/>
+    </declare-styleable><declare-styleable name="AbsClassicRefreshView">
+        <attr name="sr_style"/>
+    </declare-styleable><declare-styleable name="SmoothRefreshLayout">
+        <attr format="reference" name="sr_content"/>
+        <attr format="float" name="sr_resistance"/>
+        <attr format="float" name="sr_resistanceOfFooter"/>
+        <attr format="float" name="sr_resistanceOfHeader"/>
+        <attr format="float" name="sr_ratioToRefresh"/>
+        <attr format="float" name="sr_ratioOfHeaderToRefresh"/>
+        <attr format="float" name="sr_ratioOfFooterToRefresh"/>
+        <attr format="float" name="sr_ratioToKeep"/>
+        <attr format="float" name="sr_ratioToKeepHeader"/>
+        <attr format="float" name="sr_ratioToKeepFooter"/>
+        <attr format="float" name="sr_maxMoveRatio"/>
+        <attr format="float" name="sr_maxMoveRatioOfHeader"/>
+        <attr format="float" name="sr_maxMoveRatioOfFooter"/>
+        <attr format="integer" name="sr_closeDuration"/>
+        <attr format="integer" name="sr_closeHeaderDuration"/>
+        <attr format="integer" name="sr_closeFooterDuration"/>
+        <attr format="integer" name="sr_backToKeepDuration"/>
+        <attr format="integer" name="sr_backToKeepHeaderDuration"/>
+        <attr format="integer" name="sr_backToKeepFooterDuration"/>
+        <attr format="boolean" name="sr_enablePullToRefresh"/>
+        <attr format="boolean" name="sr_enableKeep"/>
+        <attr format="boolean" name="sr_enableOverScroll"/>
+        <attr format="boolean" name="sr_enablePinContent"/>
+        <attr name="layout_gravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+        <attr format="boolean" name="sr_enableRefresh"/>
+        <attr format="boolean" name="sr_enableLoadMore"/>
+        <attr format="reference" name="sr_emptyLayout"/>
+        <attr format="reference" name="sr_errorLayout"/>
+        <attr format="reference" name="sr_customLayout"/>
+        <attr format="reference" name="sr_stickyHeader"/>
+        <attr format="reference" name="sr_stickyFooter"/>
+        <attr format="enum" name="sr_mode">
+            <enum name="mode_default" value="0"/>
+            <enum name="mode_scale" value="1"/>
+        </attr>
+        <attr format="color" name="sr_headerBackgroundColor"/>
+        <attr format="color" name="sr_footerBackgroundColor"/>
+    </declare-styleable></configuration></mergedItems></merger>

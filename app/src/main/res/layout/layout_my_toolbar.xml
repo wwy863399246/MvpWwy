@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x130"
+>
+
+    <View
+            android:id="@+id/view_back"
+            android:layout_width="@dimen/x130"
+            android:layout_height="@dimen/x130"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <ImageView
+            android:id="@+id/toolbar_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ico_back_white"
+            app:layout_constraintBottom_toBottomOf="@id/view_back"
+            app:layout_constraintEnd_toEndOf="@id/view_back"
+            app:layout_constraintStart_toStartOf="@id/view_back"
+            app:layout_constraintTop_toTopOf="@id/view_back"/>
+
+    <TextView
+            android:id="@+id/toolbar_title"
+            android:textColor="@color/FFFFFF"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+            android:id="@+id/view_right"
+            android:layout_width="@dimen/x130"
+            android:layout_height="@dimen/x130"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+            android:id="@+id/toolbar_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/view_right"
+            app:layout_constraintEnd_toEndOf="@id/view_right"
+            app:layout_constraintStart_toStartOf="@id/view_right"
+            app:layout_constraintTop_toTopOf="@id/view_right"/>
+
+</android.support.constraint.ConstraintLayout>

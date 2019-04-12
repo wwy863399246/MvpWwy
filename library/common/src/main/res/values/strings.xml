@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="net_error">网络访问错误，请稍后再试</string>
+    <string name="update_error">图片上传错误，请重试</string>
+    <string name="no_net">网络不可用,请检查你的网络</string>
+    <string name="server_excception">服务器异常</string>
+    <string name="empty">数据为空</string>
+    <string name="click_retry">点击重试</string>
+    <string name="please_later" tools:ignore="TypographyEllipsis">加载中...</string>
+    <string name="img_position">img_position</string>
+</resources>

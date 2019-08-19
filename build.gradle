@@ -3,7 +3,10 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        // 添加阿里云 maven 地址
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        //        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
@@ -18,7 +21,10 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+        // 添加阿里云 maven 地址
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        //jcenter()
     }
 }
 ext {

@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
 import android.support.multidex.MultiDex;
+import com.app.common.commonutils.LogUtils;
 
 
 /**
@@ -18,6 +19,7 @@ public class BaseApplication extends Application
     {
         super.onCreate();
         baseApplication = this;
+        LogUtils.logInit(true);
     }
 
     public static Context getAppContext()

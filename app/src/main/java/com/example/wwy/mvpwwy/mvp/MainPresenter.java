@@ -16,7 +16,7 @@ public class MainPresenter extends MainContract.Presenter {
 
             @Override
             protected void _onError(String message) {
-
+                mView.showErrorTip(message);
             }
         }));
     }

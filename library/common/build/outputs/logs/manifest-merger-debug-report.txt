@@ -1,47 +1,47 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
+ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
 	package
-		ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:11-35
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:11-35
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:2:1-10:12
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:3:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:5:5-78
+ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:5:5-78
 	android:name
-		ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:5:22-76
 meta-data#com.project.practice.imageviewloader.MyGlideModule
-ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:6:5-8:42
+ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:6:5-8:42
 	android:value
-		ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:8:13-40
+		ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:8:13-40
 	android:name
-		ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:7:13-78
+		ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml:7:13-78
 uses-sdk
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Administrator\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leshu\Documents\MvpWwy\library\common\src\main\AndroidManifest.xml
